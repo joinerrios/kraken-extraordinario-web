@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Únete a ExtraOrdinario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: #fff;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .kraken-title {
+            display: inline-block;
+            animation: glow 1.5s infinite alternate;
+        }
+        @keyframes glow {
+            0% { text-shadow: 0 0 5px #fff; }
+            100% { text-shadow: 0 0 20px #fff; }
+        }
+        .extra-title {
+            display: inline-block;
+            animation: bounce 1.5s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .btn {
+            display: block;
+            width: 250px;
+            margin: 10px auto;
+            padding: 15px;
+            background-color: #ffcc00;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+        }
+        .btn:hover {
+            background-color: #ff9900;
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.7);
+        }
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn ease-in 2s forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container fade-in">
+        <h1><span class="kraken-title">Kraken</span> - <span class="extra-title">ExtraOrdinario</span></h1>
+        <h2>¡Únete a nuestro equipo y construyamos algo extraordinario juntos!</h2>
+        <p>Selecciona tu rol y contáctanos directamente por WhatsApp.</p>
+        
+        <a href="https://wa.me/573022547974?text=Hola%2C%20quiero%20postularme%20como%20guionista%20en%20ExtraOrdinario.%20Me%20interesa%20porque..." class="btn">Guionista</a>
+        <a href="https://wa.me/573022547974?text=Hola%2C%20quiero%20postularme%20como%20editor%20de%20video%20en%20ExtraOrdinario.%20Me%20interesa%20porque..." class="btn">Editor de Video</a>
+        <a href="https://wa.me/573022547974?text=Hola%2C%20quiero%20postularme%20como%20locutor%20en%20ExtraOrdinario.%20Me%20interesa%20porque..." class="btn">Locutor</a>
+        <a href="https://wa.me/573022547974?text=Hola%2C%20quiero%20postularme%20como%20diseñador%20gráfico%20en%20ExtraOrdinario.%20Me%20interesa%20porque..." class="btn">Diseñador Gráfico</a>
+    </div>
+</body>
+</html>
